@@ -20,3 +20,8 @@ Click here then download the .zip file. Extract the contents of the zip file, th
 
 > npm install
 > npm run start
+
+with yarn:
+> yarn install
+> yarn run start
+
