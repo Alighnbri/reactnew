@@ -1,0 +1,32 @@
+@import "./font_awesome";
+
+$myColor: brown;
+$text: center;
+$Width: 300px;
+$Case: uppercase;
+$display: flex;
+$justify: center;
+$size: 1.4rem;
+$size1:1.2rem;
+$nice:#eaeaea;
+
+h1 {
+  color: $myColor;
+  text-align: $text;
+  text-transform: $Case;
+}
+
+img {
+  width: $Width;
+}
+
+.social_container {
+  display: $display;
+  justify-content: $justify;
+}
+.social_media {
+  color: $nice;
+  font-size: $size;
+  margin-right: $size1;
+  margin-top: $size1;
+}
