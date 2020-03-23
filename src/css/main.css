@@ -1,0 +1,19 @@
+body {
+  background: #000;
+  font-family: "Comic Sans MS", cursive, "sans-serif";
+}
+
+p {
+  color: cadetblue;
+  text-align: center;
+}
+.servic {
+  text-align: center;
+}
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+  font-size: 40px;
+}
+
