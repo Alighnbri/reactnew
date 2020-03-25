@@ -1,6 +1,7 @@
 import style from '../css/main.css';
-import '../scss/main.scss';
+import scss from '../scss/main.scss';
 //import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+import jquery from 'jquery/dist/jquery.slim.js';
 //import Image from '../images/pic.jpg';
 import images from '../images/React.png';
 import React from 'react';
