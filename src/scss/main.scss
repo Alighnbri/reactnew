@@ -1,14 +1,21 @@
 @import "./font_awesome";
 
-$myColor: brown;
+$myColor: #eaea;
 $text: center;
 $Width: 300px;
 $Case: uppercase;
 $display: flex;
 $justify: center;
 $size: 1.4rem;
-$size1:1.2rem;
-$nice:#eaeaea;
+$size1: 1.2rem;
+$nice: #eaeaea;
+$body-bg: #000;
+$font: "Comic Sans MS", cursive, "sans-serif";
+
+body {
+  background-color: $body-bg;
+  font-family: $font;
+}
 
 h1 {
   color: $myColor;
@@ -25,8 +32,14 @@ img {
   justify-content: $justify;
 }
 .social_media {
-  color: $nice;
+  color: $myColor;
   font-size: $size;
   margin-right: $size1;
   margin-top: $size1;
+}
+
+.social {
+  display: $display;
+  justify-content: $justify;
+  color: cadetblue;
 }
