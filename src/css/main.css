@@ -1,13 +1,10 @@
-body {
-  background: #000;
-  font-family: "Comic Sans MS", cursive, "sans-serif";
-}
+@import '~bootstrap/dist/css/bootstrap.min.css/';
 
 p {
   color: cadetblue;
   text-align: center;
 }
-.servic {
+.servic,h2 {
   text-align: center;
 }
 
@@ -17,3 +14,6 @@ a {
   font-size: 40px;
 }
 
+.sinc {
+  color: grey;
+}
